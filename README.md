@@ -1,15 +1,15 @@
 ### Date created
-Include the date you created this project and README file.
+Created on 13-Dec-2020
 
-### Project Title
-Replace the Project Title
+# Explore US Bikeshare Data
 
-### Description
-Describe what your project is about and what it does
+## Description
+Use an interactive Python script to explore Bikeshare Data from different cities
 
-### Files used
-Include the files used
+### Files required
+- chigago.csv
+- new_york_city.csv
+- washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+Wrangled data files from Udacity.com, [Programming for Data Science with Python](https://classroom.udacity.com/nanodegrees/nd104/dashboard/overview) Nanodegree Program
