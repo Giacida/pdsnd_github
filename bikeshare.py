@@ -241,13 +241,17 @@ def user_stats(city, df):
 
     print('COUNT OF EACH USER TYPE:\n', df['User Type'].value_counts())
 
-    if city != 'washington':
+    if 'Gender' in df.columns:
         print('\nCOUNT OF USER GENDER:\n', df['Gender'].value_counts())
+    else:
+        print('\nDATA ABOUT GENDER ARE NOT AVAILABLE')
+
+    if 'Birth Year' in df.columns:
         print('\nBIRTH YEAR OF YOUNGEST USER: ', int(df['Birth Year'].min()))
         print('BIRTH YEAR OF OLDEST USER: ', int(df['Birth Year'].max()))
         print('MOST COMMON BIRTH YEAR: ',int((df['Birth Year'].mean())))
     else:
-        print('\nNO DATA ABOUT GENDER OR BIRTH YEAR ARE AVAILABLE')
+        print('\nDATA ABOUT BIRTH YEAR ARE NOT AVAILABLE')
 
     print("\nDone in %s seconds." % round(time.time() - t0,2))
 
