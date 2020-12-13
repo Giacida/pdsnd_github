@@ -300,6 +300,7 @@ def show_data(df):
 #####################################
 def main():
     bikeshare = True
+    try_again_msg = 'Invalid input! Try again:'
     while bikeshare:
         c, m, d =get_filters()
         if 'stop' in [c, m, d]:
@@ -324,7 +325,7 @@ def main():
                 elif get_disp_data == 'n':
                     break
                 else:
-                    print('Invalid input! Try again:')
+                    print(try_again_msg)
 
 
             while True:
@@ -333,7 +334,7 @@ def main():
                     bikeshare = False
                     break
                 elif restart != 'y':
-                    print('Invalid input! Try again:')
+                    print(try_again_msg)
                 else:
                     break
 
