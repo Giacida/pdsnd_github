@@ -12,4 +12,5 @@ Use an interactive Python script to explore Bikeshare Data from different cities
 - washington.csv
 
 ### Credits
-Wrangled data files from Udacity.com, [Programming for Data Science with Python](https://classroom.udacity.com/nanodegrees/nd104/dashboard/overview) Nanodegree Program
+- Wrangled data files from Udacity.com, [Programming for Data Science with Python](https://classroom.udacity.com/nanodegrees/nd104/dashboard/overview) Nanodegree Program
+- Script created with tears and sweat by myself 
